@@ -10,7 +10,7 @@ else
 	chown -R www-data:www-data /var/www/wordpress/
 fi
 
-if [ ! -d /run/php ]; then #Peut entrainer un soucis au niveau de PHP si le dossier n'est pas
+if [ ! -d /run/php ]; then
 	mkdir /run/php
 fi
 

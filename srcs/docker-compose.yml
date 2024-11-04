@@ -44,7 +44,7 @@ services:
    context: ./requirements/nginx
    dockerfile: Dockerfile
   volumes:
-   - wordpress:/var/www/wordpress:rw
+   - wordpress:/var/www/wordpress:r
   env_file:
    - .env
   ports:
